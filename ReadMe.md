@@ -1,16 +1,9 @@
-# 一个简单的VO：  
->本工程实现了一个简单的VO。主要使用ZED相机，以及OPENCV和EIGEN进行实现。   
->首先通过ZED相机拍摄前后两帧的图像，以及深度图。    
->然后对其进行ORB算子匹配（CPU），将匹配结果进行记录    
->通过匹配结果，将二维点对生成三维点云对，并通过SVD算法进行线性求解第一帧到第二帧的位姿变换R和t     
+# Mobile Robot Navigation system based on Stereo Vision and Open Street Map     
 ```
-编译过程： 
-cd build      
-cmake ..       
-make       
+The web link of obstacle avoidance video for wheeled mobile robots is         
+https://www.bilibili.com/video/av38015293/    
 ```
 ```
-使用过程：
-./testmain xxx.yaml
-预设720P
+The web link of the wheeled mobile robot cruise video in the playground is    
+https://www.bilibili.com/video/av38003153/
 ```
